@@ -419,7 +419,7 @@ public:
         return utilities::staticCastVector<double, TimeType>( concatenatedTimes_ );
     }
 
-    std::vector< TimeType > getConcatenatedWeightVector( )
+    std::vector< double > getConcatenatedWeightVector( )
     {
         // for now, this only takes the weights set from the single observation sets.
         // TODO may require a change later to accomodate other sources.
